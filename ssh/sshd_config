@@ -1,0 +1,23 @@
+#	$OpenBSD: sshd_config,v 1.104 2021/07/02 05:11:21 dtucker Exp $
+
+
+Include /etc/ssh/sshd_config.d/*.conf
+AuthorizedKeysFile	.ssh/authorized_keys
+Port 2223
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+PermitEmptyPasswords no
+LoginGraceTime 30
+MaxAuthTries 3
+MaxSessions 5
+ClientAliveInterval 300
+ClientAliveCountMax 2
+UseDNS no
+AllowAgentForwarding no
+PermitTunnel no
+AllowTcpForwarding no
+Banner /etc/issue.net
+X11Forwarding no
+Subsystem	sftp	/usr/libexec/openssh/sftp-server
+AllowUsers centos
