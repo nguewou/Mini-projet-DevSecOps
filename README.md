@@ -1,6 +1,6 @@
 🎯 Objectif global :
 
-Ce Mini Projet vise à mettre en pratique les fondamentaux Linux et les bonnes pratiques de sécurité à travers unaudit complet d’un serveur, suivi de son durcissement, l’automatisation de vérifications, et le déploiement d’une application web.
+Ce Mini Projet vise à mettre en pratique les fondamentaux Linux et les bonnes pratiques de sécurité à travers un audit complet d’un serveur, suivi de son durcissement, l’automatisation de vérifications, et le déploiement d’une application web.
 
 Phase 1 : Reconnaissance de l’environnement
 
